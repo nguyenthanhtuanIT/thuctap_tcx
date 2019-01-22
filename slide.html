@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>slider-test</title>
+	<link rel="stylesheet" href="">
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.container{
+			width: 1170px;
+			margin: 0px auto;
+		}
+		.row{
+			width: 100%;
+			padding-left: -15px ;
+			padding-right: -15px;
+			display: inline-block;
+			float: left;
+		}
+		.content{
+			width: 100%;
+			position: relative;
+			float: left;
+		}
+		.slide-img{
+			width: 100%;
+			height: 250px;
+			position: relative;
+		}
+		.text{
+			width: 500px;
+			background-color: white;
+			display: inline-block;
+			color: green;
+			top: 50%;
+			left: 50%;
+			text-align: center;
+			transform: translate(-50%, -50%);
+			position:absolute;
+		}
+		.col{
+			width: 25%;
+			background-color: blue;
+			float: left;
+			height: auto;
+			border:10px solid white;
+			margin-top: 20px;
+
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="content">
+				<img class="slide-img" src="slide.jpg" alt="backgroup">
+				<div class="text">
+					<p>nguyen thanh tuan</p>
+					<p>nguyen thanh tuan nguyen thanh tuan 
+					nguyen thanh tuan nguyen thanh tuan nguyen thanh tuan </p>
+				</div>
+			</div>
+		</div>
+		<div class="gird">
+			<div class="col">
+				<span>Gird 1</span>
+			</div>
+			<div class="col">
+				<span>Gird 1</span>
+			</div>
+			<div class="col">
+				<span>Grid 1 nguyen thanh tuan nguyen thanh tuan nguyen thanh tuan
+				nguyen thanh tuan nguyen thanh tuan nguyen thanh tuannguyen thanh tuan nguyen thanh tuan nguyen thanh tuannguyen thanh tuan nguyen thanh tuan nguyen thanh tuannguyen thanh tuan nguyen thanh tuan nguyen thanh tuannguyen thanh tuan nguyen thanh tuan nguyen thanh tuan</span>
+			</div>
+			<div class="col">
+				<span>Gird 1</span>
+			</div>
+			<div class="col">
+				<span>Gird 1</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
