@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bazinger</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="public/css/baner.css">
+</head>
+<body>
+	<div class="container bg-light" data-spy="scroll" data-target="#slider-menu" data-offset="0">
+		<div class="row">
+			<div class="home" >
+				<div class="row">
+					<div class="slider" id="home">
+						<div class="slide-item">
+							<img class="slide-img " numb="0" src="public/img/baner.png" alt="">
+						</div>
+						<div class="slide-item">
+							<img class="slide-img img-hidden" numb="1" src="public/img/image.png" alt="">
+						</div>
+						<div class="slide-item">
+							<img class="slide-img img-hidden" numb="2" src="public/img/imagesmall.png" alt="">
+						</div>
+					</div>
+					<i class="fas fa-chevron-left ctrl-btn-left" id="prev"></i>
+					<i class="fas fa-chevron-right ctrl-btn-right" id="next" ></i>
+					<ul class="list-slide">
+						<li class="list-item active" numb="0"></li>
+						<li class="list-item" numb="1"></li>
+						<li class="list-item" numb="2"></li>
+					</ul>
+					<div class="menu">
+						<img src="public/img/Logo.png" alt="" class="logo">
+						<div class="menu-list sticky-top"  >
+							<ul class="list" id="slider-menu">
+								<li class="menu-item"><a class="item active-itemmenu" href="#home" title="" id="l-home">HOME</a></li>
+								<li class="menu-item"><a class="item" id="l-features" href="#features" title="">FEATURES</a></li>
+								<li class="menu-item"><a class="item" id="l-gallery" href="#gallery" title="">GALLERY</a></li>
+								<li class="menu-item"><a class="item" id="l-video" href="#video" title="">VIDEO</a></li>
+								<li class="menu-item"><a class="item" id="l-prices" href="#price" title="">PRICES</a></li>
+								<li class="menu-item"><a class="item" id="l-testi" href="#testimonials" title="">TESTIMONIALS</a></li>
+								<li class="menu-item"><a class="item" id="l-download" href="#download" title="">DOWNLOAD</a></li>
+								<li class="menu-item"><a class="item" id="l-contact" href="#contact" title="">CONTACT</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-content">
+						<p class="content-simple">Simple,Beautiful <strong>and Amazing</strong></p>
+						<p class="text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+						<div class="header-btn">
+							<button type="button" class="butt">DOWNLOAD</button>
+							<button type="button" class="butt">LEARNMORE</button>
+						</div>
+						<br>
+						<br>
+						<p class="text ">Available on : <i class="fab fa-apple icon"></i> <i class="fab fa-android icon"></i></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end wrap -->
+		<div class="features" >
+			<div class="features-content">
+				<h3 id="features"><strong>summarise the features</strong></h3>
+				<p>summarise what your product is all about</p>
+			</div>
+			<div class="row">
+				<div class=" col-md-3">
+					<div class="fea-c">
+						<i class="fas fa-layer-group fea-icon" id="fea-icon1"></i>
+						<strong><p class="fea-titletext" id="fea-title1">ATRACTIVE LAYOUT</p></strong>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<div class="fea-c">
+						<i class="fas fa-mobile-alt fea-icon" id="fea-icon2"></i>
+						<strong><p class="fea-titletext" id="fea-title2">FRESH DESIGN</p></strong>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<div class="fea-c">
+						<i class="fas fa-comments fea-icon " id="fea-icon3"></i>
+						<strong><p class="fea-titletext " id="fea-title3" >MULTIPURPOSE</p></strong>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<div class="fea-c">
+						<i class="fas fa-desktop fea-icon" id="fea-icon4"></i>
+						<strong><p class="fea-titletext" id="fea-title4">EASY TO CUSTOMER</p></strong>
+						<p class="fea-text" >Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end feature -->
+		<hr>
+		<div class="gallery" >
+			<div class="features-content">
+				<h3 id="gallery"><strong>show the gallery</strong></h3>
+				<p>summarise what your product is all about</p>
+			</div>
+			<div class="row">
+				<div class=" col-md-3">
+					<div class="gel">
+						<div class="gel-c" id="img-small1">
+							<div class="img-hover" id="img-hover1">
+								<strong class="char-hover">+</strong>
+							</div>
+							<img  class="gel-img" src="public/img/imagesmall.png" alt="" >
+							<div class="lab-gel-img">
+								<h6 class="creenshot"><strong>SCREEN SHOT #1</strong></h6>
+							</div>
+						</div>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<div class="gel">
+						<div class="gel-c " id="img-small2">
+							<div class="img-hover" id="img-hover2">
+								<strong class="char-hover">+</strong>
+							</div>
+							<img  class="gel-img" src="public/img/imagesmall.png" alt="" >
+							<div class="lab-gel-img">
+								<h6 class="creenshot"><strong>SCREEN SHOT #2</strong></h6>
+							</div>
+						</div>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<div class="gel">
+						<div class="gel-c" id="img-small3">
+							<div class="img-hover" id="img-hover3">
+								<strong class="char-hover">+</strong>
+							</div>
+							<img  class="gel-img" src="public/img/imagesmall.png" alt="">
+							<div class="lab-gel-img">
+								<h6 class="creenshot"><strong>SCREEN SHOT #3</strong></h6>
+							</div>
+						</div>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<div class="gel">
+						<div class="gel-c" id="img-small4">
+							<div class="img-hover" id="img-hover4">
+								<strong class="char-hover">+</strong>
+							</div>
+							<img  class="gel-img" src="public/img/imagesmall.png" alt="">
+							<div class="lab-gel-img">
+								<h6 class="creenshot"><strong>SCREEN SHOT #4</strong></h6>
+							</div>
+						</div>
+						<p class="fea-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end gallery -->
+		<div class="video">
+			<div class="row">
+				<div class="video-content"  id="video">
+					<div id="my-video" class="mfp-hide video-hide">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/GqoiHF_HHCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>	
+					<img src="public/img/image.png" class="video-img" alt="">
+					<a href="#my-video" title="" id="video-link"><i class="fas fa-play icon-play" ></i></a>
+
+					<div class="video-c">
+						<p class="content-simple">Watch the best technology in <strong>Action</strong></p>
+						<p class="text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác</p>
+
+					</div>	
+
+				</div>
+			</div>
+		</div>
+		<!-- end video -->
+		<div class="price" id="price">
+			<div class="features-content">
+				<h3 id="price"><strong>show the price</strong></h3>
+				<p>summarise what your product is all about</p>
+			</div>
+			<div class="row">
+				<div class="col-md-3 price-item pri-hover-1">
+					<p class="pri-text">BASIC PACKAGE</p>
+					<div class="price-numb-1">
+						<strong class="numb">20$</strong>
+					</div>
+					<div class="price-text">
+						<p class="pri-text">Nullam suscipit vitae</p>
+						<p class="pri-text">Etiam faucibus</p>
+						<p class="pri-text">Vivamus viverra</p>
+						<button class="btn-price-1" type="button">PURCHASE</button>
+					</div>
+				</div>
+				<div class="col-md-3 price-item pri-hover-2">
+					<p class="pri-text">PROFESIONAL PACKAGE</p>
+					<div class="price-numb-2">
+						<strong class="numb">25$</strong>
+					</div>
+					<div class="price-text">
+						<p class="pri-text">Nullam suscipit vitae</p>
+						<p class="pri-text">Etiam faucibus</p>
+						<p class="pri-text">Vivamus viverra</p>
+						<button class="btn-price-2" type="button">PURCHASE</button>
+					</div>
+				</div>
+				<div class="col-md-3 price-item pri-hover-3">
+					<p class="pri-text">ADVANCED PACKAGE</p>
+					<div class="price-numb-3">
+						<strong class="numb">30$</strong>
+					</div>
+					<div class="price-text">
+						<p class="pri-text">Nullam suscipit vitae</p>
+						<p class="pri-text">Etiam faucibus</p>
+						<p class="pri-text">Vivamus viverra</p>
+						<button class="btn-price-3" type="button">PURCHASE</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end price -->
+		<div class="row">
+			<div class="testimonials" id="testimonials">
+				<h3 class="testi-title">Testimonials</h3>
+				<div class="testi-content">
+					<img class="testi-img" src="public/img/avt-default.png" alt="">
+					<p class="testi-text">Năng lực và sự tận tình của đội ngũ chuyên gia AI tại Green Global trong suốt thời gian qua đã giành được sự tin tưởng và gắn bó sâu sắc từ phía đối tác Năng lực và sự tận tình</p>
+				</div>
+				<ul class="test-list">
+					<li class="test-li"><a class="li-item" href="" title=""></a></li>
+					<li class="test-li"><a class="li-item" href="" title=""></a></li>
+					<li class="test-li"><a class="li-item" href="" title=""></a></li>
+				</ul>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="down-app">
+				<h2 class="app-text"  id="download" >Do you like this app ?</h2>
+				<button class="btn-down-app" type="button">DOWNLOAD NOW</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="bando">
+				<img class="bando-img" src="public/img/dongdat(13).jpg" alt="">
+			</div>
+			<div class="contact" >
+				<h3 class="contact-title" id="contact">Contact</h3>
+				<input class="fill-info" type="text" name="" placeholder="Your name">
+				<input class="fill-info" type="text" name="" placeholder="Your email">
+				<input class="fill-info" type="text" name="" placeholder="Subject">
+				<textarea class="fill-info" placeholder="Message"></textarea>
+				<div>
+					<button class="btn-send" type="button">Send</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<footer class="foo">
+				<p class="text-left">Copyright &copy 2019 | BAZINGER | All Right Reseved</p>
+				<p class="text-right">Terms of Service | Pryvacy Prolicy</p>
+			</footer>
+		</div>
+	</div>
+	<script src="public/js/baner.js" type="text/javascript" charset="utf-8"></script>
+	<script src="public/js/features.js" type="text/javascript" charset="utf-8"></script>
+	<script src="public/js/gellary.js" type="text/javascript" charset="utf-8"></script>
+	<script src="public/js/scrollpy.js" type="text/javascript" charset="utf-8"></script>
+	<script src="public/js/popup.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
